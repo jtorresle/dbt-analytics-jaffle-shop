@@ -1,6 +1,6 @@
 with customers as (
     select
-        id as customr_id,
+        id as customer_id,
         first_name,
         last_name
     from {{ref('raw_customers')}}
